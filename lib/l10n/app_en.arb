@@ -1,0 +1,142 @@
+{
+
+"login":"Sign In",
+
+"mobile_hint":"Mobile Number",
+
+"password_hint":"Password",
+
+"submit":"Submit",
+
+"home":"Home",
+
+"dashbord":"Dashboard",
+
+"splash":"Splash",
+
+
+"donthave_account":"Don't have an account?",
+
+
+"signup_here":"Sign up",
+
+ "signup":"Signup",
+
+
+ "name_hint":"Enter Name",
+
+
+"alreay_have_account":"Already have an account?",
+
+"register":"Register",
+
+
+
+"edit_profile":"Edit Profile",
+
+
+   "history":"History",
+   "profile":"Profile",
+   "search_by_address":"Search here...",
+   "change_password":"Change Password",
+   "terms_condition":"Terms & Conditions",
+   "privacy_policy_regarding":"Policy regarding",
+   "privacy_policy":"Privacy policy",
+   "before_registering":"before registering",
+   "logout":"Logout",
+   "games_won":"Events Won",
+   "particicated":"Events Participated",
+   "name":"Name",
+   "mobile_number":"Mobile Number",
+   "email":"Email",
+   "cancel":"Cancel",
+   "save":"Save",
+   "no_data":"No Data Found",
+   "notifications":"Notifications",
+   "end_date":"Date",
+   "end_time":"Time",
+   "max_memebers":"Max Members",
+   "joined_memebers":"Joined Members",
+   "free_count":"Free Count",
+   "live_users":"Live Users",
+   "upload_object":"Upload Object Element",
+   "capture_video":"Capture Video",
+   "realy_logout":"Do you really want Logout?",
+   "yes":"Yes",
+   "confirm_password":"Confirm Password",
+   "forgot_password":"Forgot Password",
+     "to_continue":"Please read our ",
+         "and":"and",
+         "get_started":"Welcome!",
+         "start_with_signin":"Log in to ZUGA or create a new account.",
+         "start_search":"Search",
+         "join_failed":"Failed to Join, Please try again",
+         "enter_valid_name":"Enter Valid Name",
+         "enter_valid_number":"Enter Valid number",
+         "enter_valid_email":"Enter valid Email",
+         "enter_valid_date":"Select Valid Date",
+         "select_country":"Select Country",
+         "password_should_be":"Password should be minimum 4 digits",
+         "user_not_found":"User Not found with given email",
+         "password_sent":"Password sent to registered email",
+         "logged_in_successfuly":"Logged in Successfully",
+         "registration_successfuly":"Registration completed Successfully",
+
+         "realY_logout":"Do you really want Logout?",
+         "language":"Language",
+         "proceed":"Proceed",
+          "no_data":"No Data",
+         "exit_app":"Do you want to exit from PetGroom?",
+		 "try_again":"Please try again!",
+         "field_empty":"Field Should Not be Empty",
+
+         "profile_img_update":"Profile image uploaded successfully",
+         "profile_update":"Profile Update Successfully",
+         "password_sent":"Password sent to registered emailid",
+         "user_not_found":"User Not found with given emailid",
+         "pass_confirm_match":"Password should match with Confirm Password",
+
+         "enter_current_pass":"Please enter current password",
+         "welcome_back":"Welcome back!",
+         "create_an_account":"Create account!",
+         "reset_password":"Reset password",
+         "book_appointment":"Book Appointment",
+         "booking":"BOOKING",
+         "choose_time":"Choose Time Slot",
+         "forgot_sub_title":"Enter your email address and we will \n send you a new password",
+         "pending":"Pending",
+         "completed":"Completed",
+         "call":"Call",
+         "booking_summary":"Booking Summary",
+         "service_name":"Service Name",
+         "cost":"Cost",
+         "time":"Time",
+         "total_time":"Total Time",
+         "total_fee":"Total Fee",
+         "cancel_booking":"Cancel Booking",
+         "confirm_booking":"Confirm Booking",
+         "goto_home":"GoTo Home",
+         "thankyou_service":"Thank you\n for booking service!",
+         "you_will_get":"You will get your service patner on time to finish the work",
+         "available":"Available Groomers",
+         "choose_service":"CHOOSE A SERVICE",
+         "choose_date_time":"CHOOSE DATE & TIME",
+         "confirm_appointment":"CONFIRM \nAPPOINTMENT",
+         "intro_1":"Dog Grooming Dog Grooming Dog Grooming Dog GroomingDog Grooming",
+         "intro_2":"Dog Grooming Dog Grooming Dog Grooming Dog GroomingDog Grooming",
+         "intro_3":"Dog Grooming Dog Grooming Dog Grooming Dog GroomingDog Grooming",
+         "pet_details":"My Pet Details",
+         "addpet":"Add Pet Details",
+         "pet_name":"Pet Name",
+         "pet_age":"Age",
+         "pet_breed":"Breed",
+         "pet_type":"Choose Type",
+         "pet_size":"Pet Size",
+         "mybookings":"Bookings",
+         "address":"Address",
+         "city":"City",
+         "state":"State",
+         "track":"Track"
+
+
+}

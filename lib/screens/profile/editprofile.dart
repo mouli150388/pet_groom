@@ -437,7 +437,7 @@ class _EditProfileState extends State<EditProfile> {
     print("Image picker uploading " );
 
      final bytes = IO.File(_imageFile).readAsBytesSync();
-     if(bytes.length>1024*100)
+     if(bytes.length>1024*10000)
        {
          Fluttertoast.showToast(
              msg: "Please select small image",//${AppLocalizations.of(context)?.imge_limit}

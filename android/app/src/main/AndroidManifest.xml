@@ -3,7 +3,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="pet_groom"
+        android:label="Pet Spa VIP"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

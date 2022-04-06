@@ -59,9 +59,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                     children: [
                       Container(
 
-                          child: loadIntro("assets/images/intro-one.png", "${AppLocalizations.of(context)?.choose_service}", "${AppLocalizations.of(context)?.intro_1}")),
+                          child: loadIntro("assets/images/two.jpeg", "${AppLocalizations.of(context)?.choose_service}", "${AppLocalizations.of(context)?.intro_1}")),
                       Container(
-                          child: loadIntro("assets/images/intro-two.png", "${AppLocalizations.of(context)?.choose_date_time}", "${AppLocalizations.of(context)?.intro_2}")),
+                          child: loadIntro("assets/images/one.jpeg", "${AppLocalizations.of(context)?.choose_date_time}", "${AppLocalizations.of(context)?.intro_2}")),
                       Container(
                         child: Stack(
                           children: [
@@ -148,23 +148,28 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
 loadIntro(String image,String title,String description)
 {
-  return Column(
+  return Center(
+    child: Column(
 
-    mainAxisSize: MainAxisSize.max,
-    mainAxisAlignment: MainAxisAlignment.center,
-    children: [
+      mainAxisSize: MainAxisSize.max,
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
 
-      Spacer(),
-      Image.asset(image,fit: BoxFit.cover, width:280),
-      Spacer(),
+        Spacer(),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+          child: Image.asset(image,fit: BoxFit.cover, height:280),
+        ),
+        SizedBox(height: 35,),
 
-      Text(title,style: TextStyle(color: AppColor.pink,fontSize: 22,fontWeight: FontWeight.bold,letterSpacing: 1.2),textAlign: TextAlign.center,),
-      SizedBox(height: 35,),
-      Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 32),
-        child: Text(description,style: TextStyle(color: Colors.black45,fontSize: 16,letterSpacing: 1.2),textAlign: TextAlign.center,),
-      ),
-      Spacer(),
-    ],
+        Text(title,style: TextStyle(color: AppColor.pink,fontSize: 22,fontWeight: FontWeight.bold,letterSpacing: 1.2),textAlign: TextAlign.center,),
+        SizedBox(height: 35,),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 32),
+          child: Text(description,style: TextStyle(color: Colors.black45,fontSize: 16,letterSpacing: 1.2),textAlign: TextAlign.center,),
+        ),
+        Spacer(),
+      ],
+    ),
   );
 }

@@ -3,12 +3,14 @@
 class ApiConstants {
   ApiConstants._();
 
-  static const String baseUrl ='https://demo.technosquare.co.in/';
-  static const String subUrl ='grooming/api/';
+  //static const String baseUrl ='https://demo.technosquare.co.in/';
+  static const String baseUrl ='https://petspa.vip/';
+  ///static const String subUrl ='grooming/api/';
+  static const String subUrl ='api/';
   static const String apiKey = 'MGAeNWo2jEnpjGMZwe';
-  static const String baseImageUrl = baseUrl+'grooming/images/services/';
-  static const String baseIconUrl =baseUrl+ 'grooming/event/icon/';
-  static const String baseUserProfile =baseUrl+ 'grooming/images/users/';
+  static const String baseImageUrl = baseUrl+'images/services/';
+  static const String baseIconUrl =baseUrl+ 'event/icon/';
+  static const String baseUserProfile =baseUrl+ 'images/users/';
   static const String videoKey = '';
 
   static const String login = subUrl+'login.php?token=$apiKey';

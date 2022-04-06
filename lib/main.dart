@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
                 Locale('en', ''), // English, no country code
 
               ],
-              title: 'Flutter Demo',
+              title: 'Pet Spa VIP',
               theme: ThemeData(
 
                 visualDensity: VisualDensity.adaptivePlatformDensity,
